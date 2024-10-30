@@ -1,0 +1,34 @@
+.qr-code{
+    cursor: pointer;
+    border-radius: 11px 0px 0px 11px;
+    transition: .4s;
+    position: fixed;
+    right: 0;
+    height: 150px;
+    background: linear-gradient(to left, #000, #0f0f0f );
+    top: 200px;
+    overflow: hidden;
+    width:30px ;
+}
+.qr-code h1{
+    font-size: 16px;
+    overflow: hidden;
+    height: 45px;
+
+padding: 5px;
+font-weight: lighter;    color: #fff;
+    text-align: end;
+}
+.qr-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-code img{
+    height: 100px;
+}
+.qr-code:hover{
+    width: 400px;
+    background: linear-gradient(to right, #000, #0f0f0f ); 
+}

@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Lexend Exa", sans-serif;
+}
+.box{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.ligther{
+  font-weight: lighter;
+}
+.bold{
+  font-weight: bold;
+}
+.gradient{
+  background-image: linear-gradient(to bottom, rgb(112, 112, 112), rgb(175, 175, 175), rgb(255, 255, 255));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+
+}
+
+.hide{
+  display: none;
+}
+.white{
+  color: #fff;
+  padding: 4px;
+  padding-bottom: 5px;
+}
+.unpacity{
+  padding: 5px;
+  height: 30px;
+  opacity: 0;
+}
+
+p{
+  font-size: 20px;
+}
+/* h1{
+  font-size: 30px;
+} */
+
+/* Estiliza a largura da barra de rolagem */
+body::-webkit-scrollbar {
+  width: 12px;              /* Largura da barra vertical */
+  height: 12px;             /* Altura da barra horizontal (caso esteja ativa) */
+}
+
+/* Estiliza a trilha da barra de rolagem */
+body::-webkit-scrollbar-track {
+  background: #afaaaa;      /* Cor do fundo da trilha */
+       /* Bordas arredondadas na trilha */
+}
+
+/* Estiliza o polegar (thumb) da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;   /* Cor do polegar */
+  border-radius: 10px;      /* Bordas arredondadas no polegar */
+  border: 3px solid #9c9797; /* Espaçamento interno do polegar, criando efeito de borda */
+}
+
+/* Efeito hover no polegar da barra de rolagem */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;   /* Cor do polegar ao passar o mouse */
+}
+
+
+@media (max-width:428px) {
+  p{
+    font-size: 15px;
+  }
+}

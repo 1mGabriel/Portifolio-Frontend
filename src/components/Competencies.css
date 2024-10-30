@@ -1,0 +1,23 @@
+.competencies{
+    height: 140vh;
+    background: linear-gradient(to top, #fff, #e6e3e3cc);
+}
+.competencies-content {
+    cursor: pointer;
+    transform-style: preserve-3d;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.competencies-content p{
+    text-align: center;
+}
+.competencies-content h1{
+    font-size: 40px;
+}
+@media (min-width:799px) and (max-width:1279px) {
+    .competencies{
+        height: 100vh;
+    }
+}
